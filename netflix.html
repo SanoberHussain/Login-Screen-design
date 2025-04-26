@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<style>
+    body{
+        margin:0px;
+        height:100vh;
+   background-image :linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.678)) , url(nerflix1.jpg);
+   
+        background-repeat: no-repeat;
+        background-size: cover;       
+    }
+    .div1{
+        display: flex;
+        justify-content: space-between; 
+         /* border: 2px solid; */
+         gap: 100px;
+         padding: 0px 20px;
+    }
+
+     .logo img{
+width: 100px;
+height: 100px;
+
+    } 
+     .logo2{
+        display: flex;
+     margin-top: 10px; 
+    }
+   .logo2 select{
+        background-color: rgba(10, 10, 10, 0.767);
+        color: rgb(248, 241, 241);
+        cursor: pointer;
+      width: 150px;
+height: 20px;
+    }
+      input[type="Submit"]{
+ background-color: rgb(224, 23, 23);
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 68px;
+  height: 20px;
+ border-radius: 3px; 
+}   
+    .div2{
+        font-size: 30px;
+        color: white;
+       text-align: center; 
+       margin-top: 80px;
+    }
+    .div2 p{
+        font-size: 30px;
+    }
+    .txt{
+background-color: rgba(0, 0, 0, 0.815);
+border-color: white;
+color: rgb(255, 254, 254);
+        font-size: 12px;
+        width: 300px;
+       height: 20px;     
+    }
+     .submit1 {
+        background-color: rgb(247, 6, 6);
+        border-color: none;
+        color: rgb(255, 254, 254);
+        width: 100px;
+        height:25px ;
+    } 
+</style>
+<body>         
+      <div class="div1"> 
+        <div class="logo">
+        <a href="https://www.netflix.com/pk/">
+        <img src="netflixlogo.png" alt=""></a>
+    </div>
+        <div class="logo2">
+            <select name="English" id="English">
+                <option value="English">English</option>
+                </select>&nbsp;
+            <input type="submit" value="Sign in">
+        </div> 
+    </div>
+            <div class="div2">
+            <h2>Unlimited movies, TV shows and more</h2>
+            <p>Watch anywhere. cancel anytime.<br>
+            Ready to watch? Enter your email to create or restart your,</p>
+            <input class="txt" type="text" placeholder="Email Address"> &nbsp;
+            <input class="submit1" type="submit" value="Sign in"> 
+    </div>
+</body>
+</html>
